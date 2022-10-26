@@ -1,0 +1,24 @@
+using System;      
+  class Program  
+    {  
+        public static void Main(string[] args)  
+        {
+        string userInput;
+        string password;
+        Console.WriteLine("Login");
+        Console.WriteLine("Enter your grade");
+          userInput=Console.ReadLine();
+          Console.WriteLine("Enter Password");
+          password = Console.ReadLine();
+          if(userInput == "Gradegrade tenten") {
+            Console.WriteLine("Correct Grade");
+          }
+          if(password == "114514") {
+            Console.WriteLine("login successfully");
+          }
+          else {
+            Console.WriteLine("fail to login");
+          }
+
+   }  
+}  
