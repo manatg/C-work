@@ -1,1 +1,191 @@
+//Program will print the number 0 to 4
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    for (int i = 0; i < 5; i++)
+    {
+      Console.WriteLine (i);
+    }
+    Console.WriteLine ();
+  }
+}
+
+
+
+
+//Program will print the numbers from 10 to 1
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    for (int i = 10; i > 0; i--)
+    {
+      Console.WriteLine(i);
+    }
+    
+    Console.WriteLine ();
+  }
+}
+
+
+
+
+//Program will print the sum of the ood numvers between 1 and 10
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    int sum = 0;
+    for (int i = 1; i < 10; i += 2)
+    {
+      sum += i;
+    }
+    
+    Console.WriteLine (sum);
+  }
+}
+
+
+
+
+//Program will print numbers 1 to 30 with 10 on each line and spaced out
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    int n = 3;
+    for (int i = 1; i <= n; i++)  //outer loop
+    {
+      for (int j = 1; j <= 10; j++) //inner loop
+      {
+        Console.Write ( (i * j) + "\t");
+      }
+      Console.WriteLine ();
+    }
+    
+  
+  }
+}
+
+
+
+
+
+//Program will output 4 lines of 8 stars
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    int n = 4;
+    for (int i = 1; i <= n; i++) //outer loop
+    {
+      for (int j = 1; j <= 8; j++) //inner loop
+      {
+        Console.Write ("*"); 
+      }
+      Console.WriteLine (); 
+    }
+    
+  
+    Console.WriteLine ("");
+  }
+}
+
+
+
+
+
+
+//Program will run over and over, as as i is less than 5
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    int i = 0;
+    while (i < 5)
+    {
+      Console.WriteLine(i);
+      i++; 
+    }
+    
+  
+    Console.WriteLine ("");
+  }
+}
+
+
+
+
+//Program will find the sum of odd numbers, no matter how many numbers are added. -999 needs to be added at the end to get the sum 
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    int sum = 0;
+    int num = Convert.ToInt32(Console.ReadLine());
+    while (num != -999)
+    {
+      if (num % 2 != 0)
+      {
+        sum += num;
+      }
+      num = Convert.ToInt32 (Console.ReadLine ());
+    }
+    
+  
+    Console.WriteLine (sum);
+  }
+}
+
+
+
+
+
+
+//Program will print the numbers from 10 to 19
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    int a = 10;
+    while (a < 20)
+    {
+      Console.WriteLine (a);
+      a++;
+    }
+  
+    Console.WriteLine ();
+  }
+}
+
+
+
+
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    int i = 0;
+    do
+    {
+      Console.WriteLine (i);
+      i++;
+    } while (i < 5);
+    
+    
+    Console.WriteLine ("");
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 
